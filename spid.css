@@ -1,0 +1,29 @@
+body{
+            background-color: rgb(136, 0, 255);
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Чтобы контейнер был размером с изображение */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Центрирование текста */
+  color: white; /* Цвет текста */
+  font-size: 50px; /* Размер текста */
+  /* Добавьте другие стили по необходимости */
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(10%, 10%); /* Центрирование текста */
+  color: white; /* Цвет текста */
+  font-size: 50px; /* Размер текста */
+  /* Добавьте другие стили по необходимости */
+}
+
